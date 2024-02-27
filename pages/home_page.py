@@ -4,16 +4,21 @@ from pages.base_page import BasePage
 
 class HomePage(BasePage):
 
-    _menu_home = '//a[text()="Home"]'
-    _sign_in_button = '//button[.="Sign In"]'
-    _contacts_head = '//h2'
-    _sign_up_button = '//button[.="Sign Up"]'
+    locators = dict(
+        menu_home = '//a[text()="Home"]',
+        sign_in_button = '//button[.="Sign In"]',
+        contacts_head = '//h2',
+        sign_up_button = '//button[.="Sign Up"]'
+        )
 
     def __init__(self, driver):
         super().__init__(driver)
 
-    def menu_home(self):
-        return WebElement(driver=self.driver, xpath=self._menu_home)
-
-    def sign_in_button(self):
-        return WebElement(driver=self.driver, xpath=self._sign_in_button)
+    def item(self, name:str):
+        _xpath = self.locators.get(name)
+        if _xpath is None:
+            raise AttributeError(
+                f"{self.__class__.__name__} has no xpath for element: {name}, " \
+                f"may be typo? Exsist names is: {self.locators.keys()}"
+                )
+        return WebElement(driver=self.driver, xpath=_xpath)
