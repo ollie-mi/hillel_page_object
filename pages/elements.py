@@ -303,17 +303,15 @@ if __name__ == "__main__":
     import sys
     import pathlib
     import time
-    root = str(pathlib.Path(__file__).parents[2])
-    print(root)
+    root = str(pathlib.Path(__file__).parent.parent)
     sys.path.insert(0, root)
-    from lesson_27_pt2.get_browser import firefox
+    from get_browser import firefox
     driver = firefox(True)
     url = "https://guest:welcome2qauto@qauto.forstudy.space/"
     driver.get(url)
     _menu_home = '//a[text()="Home"]'
     elment = WebElement(xpath=_menu_home, driver=driver)
     print(elment.is_clickable())
-    # time.sleep(1)
     print(elment.is_presented())
     print(elment.is_visible())
     driver.close()
