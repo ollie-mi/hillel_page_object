@@ -16,4 +16,3 @@ def driver():
 @pytest.fixture
 def home_page(driver):
     return HomePage(driver)
-
