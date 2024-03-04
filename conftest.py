@@ -3,11 +3,11 @@ from get_browser import firefox, chrome
 
 from pages.home_page import HomePage
 
-URL = "https://guest:welcome2qauto@qauto.forstudy.space/"
+URL = "https://parabank.parasoft.com/parabank/index.htm"
 
-@pytest.fixture(scope="module")
+@pytest.fixture(scope="function")
 def driver():
-    _driver = firefox()
+    _driver = firefox(True)
     _driver.maximize_window()
     _driver.get(URL)
     yield _driver
