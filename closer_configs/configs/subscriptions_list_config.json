@@ -1,0 +1,232 @@
+{
+  "subscription_plans": {
+    "1": {
+      "id": "cl-monthly-intro7d-699-3999",
+      "product_id": "1 month - $39.99",
+      "periodPrice": 6.99,
+      "price": 6.99,
+      "Value": 39.99,
+      "value": 3999,
+      "Duration": "1 month",
+      "duration": "1 month",
+      "description": "one month",
+      "currency": "USD"
+    },
+    "2": {
+      "id": "cl-monthly-3999",
+      "product_id": "1 month - $39.99",
+      "periodPrice": 39.99,
+      "price": 39.99,
+      "Value": 39.99,
+      "value": 3999,
+      "Duration": "1 month",
+      "duration": "1 month",
+      "description": "one month",
+      "currency": "USD"
+    },
+    "3": {
+      "id": "cl-3month-5999",
+      "product_id": "3 months - $59.99",
+      "periodPrice": 59.99,
+      "price": 59.99,
+      "Value": 59.99,
+      "value": 5999,
+      "Duration": "3 months",
+      "duration": "3 months",
+      "description": "three months",
+      "currency": "USD"
+    },
+    "4": {
+      "id": "cl-monthly-3996",
+      "product_id": "1 month - $39.96",
+      "periodPrice": 39.96,
+      "price": 39.96,
+      "Value": 39.96,
+      "value": 3996,
+      "Duration": "1 month",
+      "duration": "1 month",
+      "description": "one month",
+      "currency": "USD"
+    },
+    "5": {
+      "id": "cl-3month-5988",
+      "product_id": "3 months - $59.88",
+      "periodPrice": 59.88,
+      "price": 59.88,
+      "Value": 59.88,
+      "value": 5988,
+      "Duration": "3 months",
+      "duration": "3 months",
+      "description": "three months",
+      "currency": "USD"
+    },
+    "6": {
+      "id": "cl-6month-7176",
+      "product_id": "6 months - $71.76",
+      "periodPrice": 71.76,
+      "price": 71.76,
+      "Value": 71.76,
+      "value": 7176,
+      "Duration": "6 months",
+      "duration": "6 months",
+      "description": "six months",
+      "currency": "USD"
+    }
+  },
+  "coupons": {
+    "1": {
+      "id": "discount_20_usd_off_onetime",
+      "value": 20
+    },
+    "2": {
+      "id": "discount_30_usd_off_onetime",
+      "value": 30
+    }
+  },
+  "upsell_plans": {
+    "1": {
+      "id": "cl-monthly-upsell-999",
+      "product_id": "1 month - upsell $9.99",
+      "periodPrice": 9.99,
+      "price": 9.99,
+      "Value": 9.99,
+      "value": 999,
+      "Duration": "1 month",
+      "duration": "1 month",
+      "description": "one month",
+      "currency": "USD"
+    },
+    "2": {
+      "id": "cl-monthly-upsell-799",
+      "product_id": "1 month - upsell $7.99",
+      "periodPrice": 7.99,
+      "price": 7.99,
+      "Value": 7.99,
+      "value": 799,
+      "Duration": "1 month",
+      "duration": "1 month",
+      "description": "one month",
+      "currency": "USD"
+    },
+    "3": {
+      "id": "cl-monthly-upsell-599",
+      "product_id": "1 month - upsell $5.99",
+      "periodPrice": 5.99,
+      "price": 5.99,
+      "Value": 5.99,
+      "value": 599,
+      "Duration": "1 month",
+      "duration": "1 month",
+      "description": "one month",
+      "currency": "USD"
+    },
+    "4": {
+      "id": "cl-monthly-upsell-599-all",
+      "product_id": "1 month - upsell $5.99",
+      "periodPrice": 5.99,
+      "price": 5.99,
+      "Value": 5.99,
+      "value": 599,
+      "Duration": "1 month",
+      "duration": "1 month",
+      "description": "one month",
+      "currency": "USD"
+    },
+    "5": {
+      "id": "cl-monthly-upsell-499",
+      "product_id": "1 month - upsell $4.99",
+      "periodPrice": 4.99,
+      "price": 4.99,
+      "Value": 4.99,
+      "value": 499,
+      "Duration": "1 month",
+      "duration": "1 month",
+      "description": "one month",
+      "currency": "USD"
+    },
+    "6": {
+      "id": "cl-monthly-upsell-399",
+      "product_id": "1 month - upsell $3.99",
+      "periodPrice": 3.99,
+      "price": 3.99,
+      "Value": 3.99,
+      "value": 399,
+      "Duration": "1 month",
+      "duration": "1 month",
+      "description": "one month",
+      "currency": "USD"
+    },
+    "7": {
+      "id": "cl-3month-upsell-999",
+      "product_id": "3 months - upsell $9.99",
+      "periodPrice": 9.99,
+      "price": 9.99,
+      "Value": 9.99,
+      "value": 999,
+      "Duration": "3 months",
+      "duration": "3 months",
+      "description": "three months",
+      "currency": "USD"
+    },
+    "8": {
+      "id": "cl-3month-upsell-799",
+      "product_id": "3 months - upsell $7.99",
+      "periodPrice": 7.99,
+      "price": 7.99,
+      "Value": 7.99,
+      "value": 799,
+      "Duration": "3 months",
+      "duration": "3 months",
+      "description": "three months",
+      "currency": "USD"
+    },
+    "9": {
+      "id": "cl-3month-upsell-599",
+      "product_id": "3 months - upsell $5.99",
+      "periodPrice": 5.99,
+      "price": 5.99,
+      "Value": 5.99,
+      "value": 599,
+      "Duration": "3 months",
+      "duration": "3 months",
+      "description": "three months",
+      "currency": "USD"
+    },
+    "10": {
+      "id": "cl-3month-upsell-599-all",
+      "product_id": "3 months - upsell $5.99",
+      "periodPrice": 5.99,
+      "price": 5.99,
+      "Value": 5.99,
+      "value": 599,
+      "Duration": "3 months",
+      "duration": "3 months",
+      "description": "three months",
+      "currency": "USD"
+    },
+    "11": {
+      "id": "cl-3month-upsell-499",
+      "product_id": "3 months - upsell $4.99",
+      "periodPrice": 4.99,
+      "price": 4.99,
+      "Value": 4.99,
+      "value": 499,
+      "Duration": "3 months",
+      "duration": "3 months",
+      "description": "three months",
+      "currency": "USD"
+    },
+    "12": {
+      "id": "cl-3month-upsell-399",
+      "product_id": "3 months - upsell $3.99",
+      "periodPrice": 3.99,
+      "price": 3.99,
+      "Value": 3.99,
+      "value": 399,
+      "Duration": "3 months",
+      "duration": "3 months",
+      "description": "three months",
+      "currency": "USD"
+    }
+  }
+}

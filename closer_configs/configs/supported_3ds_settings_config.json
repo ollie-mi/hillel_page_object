@@ -1,0 +1,10 @@
+{
+  "3ds_on_supported_card": {
+    "stripe": {
+      "v1": {
+        "quiz": ["default", "testb"],
+        "dating": ["default"]
+      }
+    }
+  }
+}

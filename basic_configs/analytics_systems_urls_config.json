@@ -1,0 +1,24 @@
+{
+  "analytics_systems_urls": {
+    "gismart": {
+      "stage": "analytics.gidev.xyz",
+      "prod": "analytics.gismart.xyz"
+    },
+    "amplitude": {
+      "stage": "api.amplitude.com",
+      "prod": "api.amplitude.com"
+    },
+    "kibana": {
+      "stage": "api-events.geodzilla.info",
+      "prod": "api-events.geozilla.com"
+    },
+    "hotjar": {
+      "stage": "content.hotjar.io",
+      "prod": "content.hotjar.io"
+    }
+  },
+  "request_urls": {
+    "portal_cdn": "portal-cdn",
+    "stripe": "api.stripe.com"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "quiz": {
+    "default": {
+      "signup": {
+        "gismart": [10],
+        "kibana": [10],
+        "amplitude": []
+      },
+      "checkout-paywall": {
+        "gismart": [11, 12, 13],
+        "kibana": [11, 12, 13],
+        "amplitude": [13]
+      }
+    },
+    "testb": {
+      "signup": {
+        "gismart": [10],
+        "kibana": [10],
+        "amplitude": []
+      },
+      "checkout-paywall": {
+        "gismart": [11, 12, 13],
+        "kibana": [11, 12, 13],
+        "amplitude": [13]
+      }
+    }
+  },
+  "dating": {
+    "default": {
+      "signup": {
+        "gismart": [10],
+        "kibana": [10],
+        "amplitude": []
+      },
+      "checkout-paywall": {
+        "gismart": [11, 12, 13],
+        "kibana": [11, 12, 13],
+        "amplitude": [13]
+      }
+    }
+  }
+}

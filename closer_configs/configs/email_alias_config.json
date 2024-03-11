@@ -1,0 +1,11 @@
+{
+  "stripe": {
+    "email_alias": {
+      "v1": "test.stripev1",
+      "discount": "test.discount"
+    },
+    "account_name": {
+      "v1": "Closer 1"
+    }
+  }
+}

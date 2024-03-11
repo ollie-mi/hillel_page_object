@@ -1,0 +1,24 @@
+{
+  "quiz": {
+    "default": {
+      "landing_type": 1,
+      "landingType": 1,
+      "app_name": 1,
+      "appName": 1
+    },
+    "testb": {
+      "landing_type": 2,
+      "landingType": 2,
+      "app_name": 1,
+      "appName": 1
+    }
+  },
+  "dating": {
+    "default": {
+      "landing_type": 1,
+      "landingType": 1,
+      "app_name": 2,
+      "appName": 2
+    }
+  }
+}

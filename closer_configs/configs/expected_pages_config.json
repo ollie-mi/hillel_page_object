@@ -1,0 +1,21 @@
+{
+  "quiz": {
+    "default": {
+      "signup": "checkout",
+      "paywall": "checkout",
+      "checkout_form": "checkout/upsell"
+    },
+    "testb": {
+      "signup": "checkout",
+      "paywall": "checkout",
+      "checkout_form": "checkout/upsell"
+    }
+  },
+  "dating": {
+    "default": {
+      "signup": "checkout",
+      "paywall": "checkout",
+      "checkout_form": "checkout/success"
+    }
+  }
+}

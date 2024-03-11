@@ -1,0 +1,10 @@
+{
+  "url": {
+    "stage": {
+      "quiz": "https://quiz-stage.closer-app.com/"
+    }
+  },
+  "landing": {
+    "quiz": ["testb"]
+  }
+}
